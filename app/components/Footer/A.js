@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  width: 100%;
-  text-align: center;
+const A = styled.a`
   color: var(--app-pallete-text-secondary);
+  text-decoration: underline;
 `;
 
-export default Wrapper;
+export default A;

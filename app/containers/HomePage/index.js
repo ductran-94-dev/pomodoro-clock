@@ -7,6 +7,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import Pomodoro from 'containers/Pomodoro';
+
 export function HomePage() {
   return (
     <article>
@@ -17,7 +19,7 @@ export function HomePage() {
           content="A React.js Boilerplate application homepage"
         />
       </Helmet>
-      <div>Homepage</div>
+      <Pomodoro />
     </article>
   );
 }

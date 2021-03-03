@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  width: 100%;
-  text-align: center;
-  color: var(--app-pallete-text-secondary);
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 `;
 
 export default Wrapper;
