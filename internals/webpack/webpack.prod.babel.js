@@ -117,7 +117,7 @@ module.exports = require('./webpack.base.babel')({
 
     new WebpackPwaManifest({
       name: 'Pomodoro Clock',
-      short_name: 'Pomodoro Clock',
+      short_name: 'Pomofocus',
       description: 'My Pomodoro Clock project!',
       background_color: '#fafafa',
       theme_color: '#385898',
